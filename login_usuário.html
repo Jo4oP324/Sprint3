@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login | Biblioteca SESI</title>
+  <link rel="stylesheet" href="css/estilo.css">
+  <link rel="icon" href="img/livro.png">
+</head>
+
+<body>
+  <header class="cabecalho-principal">
+    <nav class="navegacao-index">
+      <a style="display: flex; justify-content: center;" href="index.html" class="logo">Biblioteca Sesi</a>
+    </nav>
+  </header>
+  <div class="corpo">
+    <h2 class="titulo">Login do usuário</h2>
+    <form action="login_usuário.php" method="post" class="form-login">
+      <div class="campo">
+        <label for="cpf" class="form-label">CPF</label>
+        <input type="text" id="cpf" name="cpf" placeholder="(XX) XXXXX-XXXX" required class="form-input">
+      </div>
+
+      <div class="campo">
+        <label for="senha" class="form-label">Senha</label>
+        <input type="password" id="senha" name="senha" placeholder="XXXXX" required class="form-input">
+      </div>
+
+      <button type="submit" class="form-button">Entrar</button>
+      <p class="texto-ajuda">Não possui uma conta? <a href="Cadastro_De_Usuário.html">Cadastre-se aqui</a></p>
+    </form>
+  </div>
+  <footer class="rodape-principal">
+    <div class="container">
+      <div class="logo">
+        <p>Biblioteca Sesi</p>
+      </div>
+
+      <div class="rodape-links">
+        <div class="informacoes">
+          <a href="#">Sobre nós</a>
+          <a href="#">Política AML</a>
+          <a href="#">Convidar amigos</a>
+          <a href="#">Blog</a>
+        </div>
+
+        <div class="informacoes">
+          <a href="#">Regulamento</a>
+          <a href="#">VIP</a>
+          <a href="#">Promoções</a>
+          <a href="#">Status</a>
+        </div>
+
+        <div class="informacoes">
+          <a href="#">Acordo do Cliente</a>
+          <a href="#">Prestige club</a>
+          <a href="#">Estratégias</a>
+          <a href="#">Central de Ajuda</a>
+        </div>
+
+        <div class="redes-sociais">
+          <p>CONTATOS</p>
+          <a href="mailto:support@biblioteca.com">@SuporteBibliotecaSesi@gmail.com</a>
+          <div class="social-icons">
+            <a href="#"><img src="img/download-removebg-preview1.png" alt="Facebook"></a>
+            <a href="#"><img src="img/download__1_-removebg-preview.png" alt="Instagram"></a>
+            <a href="#"><img src="img/x.png" alt="Twitter"></a>
+            <a href="#"><img src="img/likendin.png" alt="Telegram"></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="aviso-legal">
+        <p>A Biblioteca e quaisquer de seus serviços não são destinados...</p>
+      </div>
+
+      <div class="endereco">
+        <p>Av. Paulista, 1313<br>CEP: 01311-923(FIESP)</p>
+      </div>
+
+      <p class="copyright">© 2024 Biblioteca SESI. Todos os direitos reservados</p>
+    </div>
+  </footer>
+  <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
+</body>
+
+</html>
